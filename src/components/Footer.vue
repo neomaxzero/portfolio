@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <p>is Maxi ©{{year}}</p>
+    <p>isMaxi ©{{year}}</p>
   </div>
 </template>
 
@@ -22,6 +22,7 @@ export default {
     align-items: flex-end;
     height: 10%;
     width: 100%;
+    color: #5B5D7D  ;
   }
 
 </style>

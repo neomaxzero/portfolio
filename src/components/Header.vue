@@ -1,10 +1,14 @@
 <template>
   <div class="headero">
-    <a href="#">About</a>
+    <a href="#">
+      <i class="fa fa-male fa-lg" aria-hidden="true"></i>
+    </a>
     <a href="#">
         <img class="logo" src="../assets/logo.svg" alt="is Maxi">
     </a>
-    <a href="#">Contact</a>
+    <a href="#">
+      <i class="fa fa-volume-control-phone fa-lg" aria-hidden="true"></i>
+    </a>
   </div>
 </template>
 

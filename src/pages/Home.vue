@@ -2,10 +2,16 @@
   <div class="home">
     <h2>
       <p class="owner">
-        Maxi Cespedes
+        Maxi Céspedes
       </p>
       <p class="prof">
         Web Engineer
+      </p>
+      <p class="email">        
+        <a href="mailto:maxicespedes7@hotmail.com">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          Email me
+        </a>
       </p>
     </h2>
   </div>
@@ -43,5 +49,10 @@ export default {
 .prof{
   margin: 5px;
   font-weight: normal;
+}
+
+.email{
+    font-size: 0.7em;
+    font-weight: 100;
 }
 </style>
