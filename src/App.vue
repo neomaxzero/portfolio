@@ -38,7 +38,7 @@ a {
   color:#FFA992;
 }
 .logo {
-  width: 100px;
+  width: 50px;
   height: 100px
 }
 
