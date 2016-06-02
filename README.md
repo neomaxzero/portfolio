@@ -4,8 +4,10 @@
 
 ## Screenshot
 
-![Image of Portfolio]
-(https://github.com/neomaxzero/portfolio/blob/master/sh/Screen%20Shot%202016-06-02%20at%207.57.32%20AM.png)
+
+
+<div style="text-align:center"><img src ="https://github.com/neomaxzero/portfolio/blob/master/sh/Screen%20Shot%202016-06-02%20at%207.57.32%20AM.png" /></div>
+
 
 ## Build Setup
 
