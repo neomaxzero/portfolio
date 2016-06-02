@@ -1,9 +1,10 @@
-# www.ismaxi.com
+# Maxi's portfolio
 
-> My own *Portfolio* project.
+> My own *Portfolio* project. www.ismaxi.com
 
 ## Screenshot
 
+![Image of Yaktocat]
 (https://octodex.github.com/images/yaktocat.png)
 
 ## Build Setup
