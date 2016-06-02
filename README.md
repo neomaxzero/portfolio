@@ -4,8 +4,8 @@
 
 ## Screenshot
 
-![Image of Yaktocat]
-(https://octodex.github.com/images/yaktocat.png)
+![Image of Portfolio]
+(https://github.com/neomaxzero/portfolio/blob/master/sh/Screen%20Shot%202016-06-02%20at%207.57.32%20AM.png)
 
 ## Build Setup
 
