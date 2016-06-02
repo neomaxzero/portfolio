@@ -27,7 +27,7 @@ html{
   height: 98%;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  background-color: #272944;
+  background-color: #191C3A;
   color:#fff;
 }
 body {
