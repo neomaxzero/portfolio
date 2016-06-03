@@ -1,6 +1,15 @@
-# temp
+<p align="center">
+  <h1> Maxi's portfolio</h1> 
+</p>
 
-> A Vue.js project
+
+> My own *Portfolio* project. www.ismaxi.com
+
+## Screenshot
+
+<p align="center">
+  <img src ="https://github.com/neomaxzero/portfolio/blob/master/sh/Screen%20Shot%202016-06-02%20at%207.57.32%20AM.png" />
+</p>
 
 ## Build Setup
 
@@ -14,14 +23,4 @@ npm run dev
 # build for production with minification
 npm run build
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
