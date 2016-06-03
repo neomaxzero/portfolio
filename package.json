@@ -5,6 +5,7 @@
   "author": "Maxi <maxicespedes7@hotmail.com>",
   "private": true,
   "scripts": {
+    "prod":"node server/index.js",
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
     "unit": "karma start test/unit/karma.conf.js --single-run",
@@ -13,7 +14,9 @@
   },
   "dependencies": {
     "vue": "^1.0.21",
-    "babel-runtime": "^6.0.0"
+    "babel-runtime": "^6.0.0",
+    "connect": "^3.4.1",
+    "serve-static": "^1.10.3"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
