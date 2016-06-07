@@ -1,24 +1,29 @@
 <template>
   <div class="wraper">
     <headero></headero>
-    <home></home>
+    <router-view></router-view>
+    <!-- <home></home> -->
     <footero class="foo"></footero>
   </div>
 
 </template>
 
+
 <script>
 import Headero from './components/Header'
 import Footero from './components/Footer'
 import Home from './pages/Home'
+import About from './pages/About'
 
 export default {
   components: {
+    Home,
+    About,
     Headero,
-    Footero,
-    Home
+    Footero
   }
 }
+
 </script>
 
 <style>

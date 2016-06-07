@@ -1,9 +1,9 @@
 <template>
   <div class="headero">
-    <a href="#">
+    <a v-link="{path: '/about'}">
       <i class="fa fa-male fa-lg" aria-hidden="true"></i>
     </a>
-    <a href="#">
+    <a v-link="{path: '/'}">
         <img class="logo" src="../assets/logo.svg" alt="is Maxi">
     </a>
     <a href="#">
