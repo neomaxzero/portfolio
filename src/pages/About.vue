@@ -3,7 +3,17 @@
     <div class="profilePicture">
       <img src="../assets/me.jpg" alt="Me!" width="40%" />
     </div>
-      <p>{{msg}}</p>
+    <div class="bio">
+      <h2>{{bioTitle}}</h2>
+      <p class="Intro">
+        I'm a <strong>Developer</strong> with the heart of a Web Architect (aspiring).
+        Currently living in Buenos Aires. I'm very curious about the current trend of technologies
+        chosen to build the web of the future. Very into JavaScript for the FrontEnd and the Backend.
+      </p>
+
+
+    </div>
+
   </div>
 </template>
 
@@ -15,7 +25,7 @@ export default {
       // with hot-reload because the reloaded component
       // preserves its current state and we are modifying
       // its initial state.
-      msg: 'Hi! Call me Maxi!'
+      bioTitle: 'Is Maxi!'
     }
   }
 }
@@ -31,12 +41,18 @@ export default {
   }
   .profilePicture{
     margin: 1em;
-
     border-radius: 10px;
+    width: 400px;
+  }
 
+  .bio{
+    align-self: center;
+    width: 400px;
   }
 
   img{
     border: 1px solid white;
   }
+
+
 </style>

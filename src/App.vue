@@ -58,4 +58,8 @@ a {
   align-self: flex-end;
 }
 
+h3,h2,h1, h4{
+  text-align: center;
+  color: #e86440;
+}
 </style>
