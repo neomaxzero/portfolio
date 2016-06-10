@@ -6,11 +6,14 @@
     <div class="bio">
       <h2>{{bioTitle}}</h2>
       <p class="Intro">
-        I'm a <strong>Developer</strong> with the heart of a Web Architect (aspiring).
-        Currently living in Buenos Aires. I'm very curious about the current trend of technologies
+        <strong>Developer</strong> with the heart of a <strong>Web Architect</strong> (aspiring).
+        Currently living in Buenos Aires. He is very curious about the current trend of technologies
         chosen to build the web of the future. Very into JavaScript for the FrontEnd and the Backend.
       </p>
-
+      <p class="hobbies">
+        Maxi loves spending time with his friends and with his girlfriend, also enjoys <a href="https://www.500px.com/neomaxzero">Photography</a>
+        , swimming, <a href="https://github.com/neomaxzero">coding</a> and sometimes playing video games. :D
+      </p>
 
     </div>
 
@@ -25,7 +28,7 @@ export default {
       // with hot-reload because the reloaded component
       // preserves its current state and we are modifying
       // its initial state.
-      bioTitle: 'Is Maxi!'
+      bioTitle: 'is Maxi!'
     }
   }
 }
@@ -50,9 +53,14 @@ export default {
     width: 400px;
   }
 
+  .hobbies{
+      margin-top: 1.5em;
+  }
+
   img{
     border: 1px solid white;
   }
+
 
 
 </style>

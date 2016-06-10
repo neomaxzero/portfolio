@@ -7,7 +7,7 @@
       <p class="prof">
         Web Engineer
       </p>
-      <p class="email">        
+      <p class="email">
         <a href="mailto:maxicespedes7@hotmail.com">
           <i class="fa fa-envelope" aria-hidden="true"></i>
           Email me
@@ -49,6 +49,7 @@ export default {
 .prof{
   margin: 5px;
   font-weight: normal;
+  color:white;
 }
 
 .email{
