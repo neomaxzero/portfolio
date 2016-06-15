@@ -9,6 +9,12 @@ module.exports = {
         // App component's scope.
         component: require('./pages/About.vue')
       },
+      '/contact': {
+        // the component can also be a plain string component id,
+        // but a component with that id must be available in the
+        // App component's scope.
+        component: require('./pages/Contact.vue')
+      },
 
       '/': {
         // the component can also be a plain string component id,

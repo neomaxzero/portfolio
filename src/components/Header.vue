@@ -6,7 +6,7 @@
     <a v-link="{path: '/'}">
         <img class="logo" src="../assets/logo.svg" alt="is Maxi">
     </a>
-    <a href="#">
+    <a v-link="{path: '/contact'}">
       <i class="fa fa-volume-control-phone fa-lg" aria-hidden="true"></i>
     </a>
   </div>

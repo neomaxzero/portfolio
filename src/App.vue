@@ -14,12 +14,14 @@ import Headero from './components/Header'
 import Footero from './components/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
+import Contact from './pages/Contact'
 
 export default {
   components: {
     Home,
     About,
     Headero,
+    Contact,
     Footero
   }
 }
