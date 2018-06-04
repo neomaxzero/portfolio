@@ -1,6 +1,6 @@
 <template>
     <Centerer>
-      <Logo src="/img/nmz-logo-white.png"/>
+      <Logo alt="Logo Z3rO" src="/img/nmz-logo-white.png"/>
     </Centerer>
 </template>
 
