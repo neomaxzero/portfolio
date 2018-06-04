@@ -1,6 +1,7 @@
 {
   "name": "Z3rO",
   "short_name": "Z3rO",
+  "description": "Maxi Cespedes s Personal site",
   "icons": [
     {
       "src": "/img/icons/android-chrome-192x192.png",
@@ -15,6 +16,6 @@
   ],
   "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#B08BFF"
+  "background_color": "#783BFC",
+  "theme_color": "#783BFC"
 }
