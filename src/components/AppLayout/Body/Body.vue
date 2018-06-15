@@ -1,5 +1,7 @@
 <template>
-    <Body />
+    <Body>
+      <slot/>
+    </Body>
 </template>
 
 <script>
