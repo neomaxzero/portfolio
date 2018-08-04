@@ -1,17 +1,23 @@
 <template>
    <Header>
-     HARRY POTTER
+     <UL>
+       <router-link to="/about">
+         <item>about</item>
+       </router-link>
+     </UL>
      <slot></slot>
    </Header>
 </template>
 
 <script>
-import Header from './Header';
+import Header, { item, options as UL } from './Header';
 
 export default {
-  name: 'header',
+  name: 'headerZ',
   components: {
     Header,
+    item,
+    UL,
   },
 };
 </script>
