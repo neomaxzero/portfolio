@@ -7,4 +7,6 @@ export default styled.div`
   align-items: center;
   height: 100vh;
   width: 100vw;
+  top: 0;
+  flex-direction: ${props => (props.column ? 'column' : 'row')};
 `;
