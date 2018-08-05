@@ -1,6 +1,8 @@
 import styled from 'vue-styled-components';
 
-export default styled.div`
+const centererProps = { column: Boolean };
+
+export default styled('div', centererProps)`
   position: fixed;
   display: flex;
   justify-content: center;
