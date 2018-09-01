@@ -10,6 +10,10 @@ export const duUl = styled('ul', ulProps)`
 
     display: ${props => (props.horizontal ? 'inline-block' : 'block')};
   }
+
+  & > a {
+    padding-top: 1em;
+  }
 `;
 
 export default duUl;
