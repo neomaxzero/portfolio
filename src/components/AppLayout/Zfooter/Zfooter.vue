@@ -1,22 +1,20 @@
 <template>
-    <Footer>
-        Z3rO | {{year}}
-    </Footer>
+  <Footer>m4x | {{year}}</Footer>
 </template>
 
 <script>
-import Footer from './Footer';
+import Footer from "./Footer";
 
 export default {
-  name: 'zfooter',
+  name: "zfooter",
   components: {
-    Footer,
+    Footer
   },
   props: {
     year: {
       type: Number,
-      default: new Date().getFullYear(),
-    },
-  },
+      default: new Date().getFullYear()
+    }
+  }
 };
 </script>

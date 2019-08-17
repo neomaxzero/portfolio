@@ -4,7 +4,7 @@
        <router-link to="/about">
          <item>about</item>
        </router-link>
-       <a href="https://blog.z3ro.com.ar">
+       <a href="https://blog.m4x.com.ar">
          <item>blog</item>
        </a>
      </UL>
